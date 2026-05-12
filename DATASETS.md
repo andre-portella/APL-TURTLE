@@ -1,4 +1,4 @@
-# Instalar os Datasets
+# Baixar os Datasets
 Colocar todos os conjuntos de dados sob a mesma pasta (chamada $DATA) para facilitar o gerenciamento e seguir as instruções abaixo para organizá-los, evitando a necessidade de modificar o código-fonte. A estrutura de arquivos deve seguir o seguinte padrão:
 
 ```
