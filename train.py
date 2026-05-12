@@ -218,7 +218,7 @@ if __name__ == "__main__":
 
     # ADICIONADO
     parser.add_argument(
-        "--strategy", type=str, default="", help="active learning strategy (centroide, entropia, confianca, margem, margem_confianca)"
+        "--strategy", type=str, default="centroide", choices=["centroide", "entropia", "confianca", "margem", "margem_confianca"], help="active learning strategy (centroide, entropia, confianca, margem, margem_confianca)"
     )
 
     args = parser.parse_args()
