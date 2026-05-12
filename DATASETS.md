@@ -105,7 +105,6 @@ eurosat/
 ### CIFAR-10
 - Crie um diretório de nome `cifar10/` dentro de `$DATA`.
 - O download do CIFAR-10 deve ser gerido pelo torchvision.datasets.CIFAR10.
-- Baixe o dataset de https://www.cs.toronto.edu/~kriz/cifar.html e extraia para`$DATA/cifar10/`. 
 - Baixe `split_zhou_CIFAR10.json` desse [link](https://drive.google.com/file/d/1gLJyDsyt_A5bcxI8IU8wrH0XMyRKLKV_/view?usp=drive_link).
 
 A estrutura do diretório deve ser assim:
