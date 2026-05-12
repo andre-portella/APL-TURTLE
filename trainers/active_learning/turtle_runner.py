@@ -1,8 +1,6 @@
 import os
 import sys
 import torch
-from run_turtle import run as train_turtle
-
 
 
 class TurtleRunner:
@@ -23,6 +21,7 @@ class TurtleRunner:
         if self.turtle_path not in sys.path:
             sys.path.insert(0, self.turtle_path)
 
+        from run_turtle import run as train_turtle
         self.train_turtle = train_turtle
 
     def train(self, dataset_name):
