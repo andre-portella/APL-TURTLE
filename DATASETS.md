@@ -6,7 +6,7 @@ $DATA/
 |–– imagenet/
 |–– caltech-101/
 |–– oxford_pets/
-|–– stanford_cars/
+|–– dtd/
 ```
 
 
@@ -104,10 +104,10 @@ eurosat/
 
 ### CIFAR-10
 - Crie um diretório de nome `cifar10/` dentro de `$DATA`.
-- Baixe o dataset de https://www.cs.toronto.edu/~kriz/cifar.html e extraua para`$DATA/cifar10/`. 
+- Baixe o dataset de https://www.cs.toronto.edu/~kriz/cifar.html e extraia para`$DATA/cifar10/`. 
 - Baixe `split_zhou_.json` desse [link](https://drive.google.com/file/d/1gLJyDsyt_A5bcxI8IU8wrH0XMyRKLKV_/view?usp=drive_link).
 
 ### STL-10
 - Crie um diretório de nome `stl10/` dentro de `$DATA`.
-- Baixe o dataset de https://www.cs.toronto.edu/~kriz/cifar.html e extraua para`$DATA/stl10/`. 
+- Baixe o dataset de https://cs.stanford.edu/~acoates/stl10/ e extraia para`$DATA/stl10/`. 
 - Baixe `split_zhou_.json` desse [link](https://drive.google.com/file/d/1PdGx5KIwErP-MNJGtLxePJnAKN2cHSOE/view?usp=drive_link).
