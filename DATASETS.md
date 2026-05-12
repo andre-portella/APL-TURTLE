@@ -104,10 +104,25 @@ eurosat/
 
 ### CIFAR-10
 - Crie um diretório de nome `cifar10/` dentro de `$DATA`.
+- O download do CIFAR-10 deve ser gerido pelo torchvision.datasets.CIFAR10.
 - Baixe o dataset de https://www.cs.toronto.edu/~kriz/cifar.html e extraia para`$DATA/cifar10/`. 
-- Baixe `split_zhou_.json` desse [link](https://drive.google.com/file/d/1gLJyDsyt_A5bcxI8IU8wrH0XMyRKLKV_/view?usp=drive_link).
+- Baixe `split_zhou_CIFAR10.json` desse [link](https://drive.google.com/file/d/1gLJyDsyt_A5bcxI8IU8wrH0XMyRKLKV_/view?usp=drive_link).
+
+A estrutura do diretório deve ser assim:
+```
+cifar10/
+|–– images/
+|–– split_zhou_CIFAR10.json
+```
 
 ### STL-10
 - Crie um diretório de nome `stl10/` dentro de `$DATA`.
-- Baixe o dataset de https://cs.stanford.edu/~acoates/stl10/ e extraia para`$DATA/stl10/`. 
-- Baixe `split_zhou_.json` desse [link](https://drive.google.com/file/d/1PdGx5KIwErP-MNJGtLxePJnAKN2cHSOE/view?usp=drive_link).
+- O download do STL-10 deve ser gerido pelo torchvision.datasets.STL10.
+- Baixe `split_zhou_STL10.json` desse [link](https://drive.google.com/file/d/1PdGx5KIwErP-MNJGtLxePJnAKN2cHSOE/view?usp=drive_link).
+
+A estrutura do diretório deve ser assim:
+```
+stl10/
+|–– images/
+|–– split_zhou_STL10.json
+```
