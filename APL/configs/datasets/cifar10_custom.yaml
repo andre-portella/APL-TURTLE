@@ -1,0 +1,4 @@
+DATASET:
+  NAME: "CIFAR10_Custom"
+  ROOT: "DATA"
+  NUM_SHOTS: -1
