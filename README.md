@@ -12,4 +12,4 @@ sh scripts/alvlm/main.sh [DATASET] [MODEL] [AL METHOD] [SEED NUMBER] [MODE] [SEL
 - **AL METHOD** $\in$ [cbsq]
 - **SEED**: inteiro 
 - **MODE**: Description augmentation $\in$ [none]
-- **SELECAO**: $\un$ [centroide, entropia, confianca, margem, margem_confianca]
+- **SELECAO**: $\in$ [centroide, entropia, confianca, margem, margem_confianca]
