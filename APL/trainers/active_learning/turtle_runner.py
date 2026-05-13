@@ -6,7 +6,7 @@ import torch
 class TurtleRunner:
     def __init__(self, cfg, device):
         
-        self.turtle_path = "" #preencher
+        self.turtle_path = "../../TURTLE" #preencher
         self.device = device
         self.cfg = cfg
 
