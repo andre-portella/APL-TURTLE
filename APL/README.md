@@ -5,7 +5,7 @@ Este repositório apresenta um projeto de Iniciação Científica focado na mini
 ### Execução
 Para executar o código, alterar o parâmetro `DATA` em `APL/scripts/alvlm/main.sh`. Pode ser preciso ajustar o caminho do framework TURTLE em: `APL/trainers/active_learning/turtle_runner.py`
 
-Com os ajustes realizados, pode-se executar, dentro do diretório `APL`, o projeto a partir do seguinte comando:
+Com os ajustes realizados, pode-se executar o projeto, dentro do diretório `APL`, a partir do seguinte comando:
 ```bash
 sh scripts/alvlm/main.sh [DATASET] [MODEL] [AL METHOD] [SEED NUMBER] [MODE] [SELECAO]
 ```
