@@ -1,4 +1,0 @@
-DATASET:
-  NAME: "STL10_Custom"
-  ROOT: "DATA"
-  NUM_SHOTS:
